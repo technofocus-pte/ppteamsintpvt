@@ -101,9 +101,6 @@
 
 ### **Task 4: Add a new table to capture company record**
 
-We need to add a table to maintain a list of companies we'll use as the
-company record, and to start a conversation about it.
-
 1.  Select **Data** from the left-pane. Select **+ Add data** and then
     select **Create a new table**.
 
@@ -123,14 +120,11 @@ company record, and to start a conversation about it.
     column one by one by hitting enter button and then click on **Save
     and close**.
 
-!!Microsoft!!, !!Infosys!!, !!Accenture!!, !!Wipro!!, !!Dell!! and !!Google!!.
+    !!Microsoft!!, !!Infosys!!, !!Accenture!!, !!Wipro!!, !!Dell!! and !!Google!!.
 
     ![A screenshot of a computer Description automatically generated](./media/image25.png)
 
 ### **Task 5: Add a new screen to select the customer**
-
-Next, we'll add a screen to the app so that users can select the
-customer that they want to have the conversation about.
 
 1.  In the tree view, select **+ New screen.**  Select **List**.
 
@@ -165,16 +159,12 @@ customer that they want to have the conversation about.
 
      ![A screenshot of a computer Description automatically generated](./media/image33.png)
 
-7.  Double click on Screen2 in the tree view and rename it
+7.  Double click on **Screen2** in the tree view and rename it
     to **Screen1**.
 
      ![A screenshot of a computer Description automatically generated](./media/image34.png)
 
 ### **Task 6: Add a new table to capture the conversation details**
-
-We need to add another table to capture the details such as the Teams
-conversation ID, team, and channel related to a conversation started in
-the app.
 
 1.  Select **Data** > **+ Add data** > **Create new table**.
 
@@ -207,7 +197,7 @@ the app.
      Repeat the procedure and add the following columns to the conversation
      table:
     
-    [TABLE]
+        [TABLE]
     
      ![A screenshot of a computer Description automatically generated](./media/image39.png)
 
@@ -218,15 +208,11 @@ the app.
 
 ## Task 7: Add a new screen to start or join a conversation
 
-    Now, we'll add a new screen where the app user can start or join a
-    conversation.
-
 1.  In the tree view, select **+ New screen** > **Blank layout**.
 
-     ![](./media/image41.png)
+    ![](./media/image41.png)
 
-2.  Update the **Fill** property of the screen to RGBA(224, 224, 237,
-    1).
+2.  Update the **Fill** property of the screen to !!RGBA(224, 224, 237, 1)!!.
 
      ![](./media/image42.png)
 
