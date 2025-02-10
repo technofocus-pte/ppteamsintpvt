@@ -39,7 +39,7 @@ components such as apps, flows, and tables.
 
 2.  Navigate to **Apps** click on **Manage your apps**.
 
-   ![A screenshot of a computer Description automatically generated](./media/image6.png)
+    ![A screenshot of a computer Description automatically generated](./media/image6.png)
 
 3.  Click on **Upload an app**.
 
@@ -47,17 +47,17 @@ components such as apps, flows, and tables.
 
 4.  Select **Upload an app to your org’s app catalog.**
 
-   ![](./media/image8.png)
+    ![](./media/image8.png)
 
 5.  Navigate to **TeamsCustomApp.zip** file, the one we have extracted
     in the previous task and click on **Open**.
 
-   ![](./media/image9.png)
+    ![](./media/image9.png)
 
 6.  Once the upload is complete, on the page of **Built for your
     organisation > Milestones** click on **Add**.
 
-   ![](./media/image10.png)
+    ![](./media/image10.png)
 
 7.  On the pop-up card, click on **Add.**
 
@@ -67,19 +67,19 @@ components such as apps, flows, and tables.
     the app (here we select the **TestChannel**) and click '**Set up a tab**'
     to continue.
 
-   ![](./media/image12.png)
+    ![](./media/image12.png)
 
 9.  Another pop-up card will show up. Click **Save** to start the
     installation.
 
-   ![](./media/image13.png)
+    ![](./media/image13.png)
 
 10. Installation will take around 5 minutes, once the installation is
     complete we can start using the app.
 
 11. If prompted allow the **App permissions**
 
-   ![A screenshot of a computer Description automatically generated](./media/image14.png)
+    ![A screenshot of a computer Description automatically generated](./media/image14.png)
 
 12. On the next page of **Manage projects effectively by key
     milestones,** click on **Continue.**
@@ -97,7 +97,7 @@ components such as apps, flows, and tables.
 ### **Task 1: Open the Sample app template**
 
 1.  Sign in to Teams by following the link
-    **<https://teams.microsoft.com/>.** If you are on Teams, then follow
+    !!**https://teams.microsoft.com/**!!. If you are on Teams, then follow
     the next step.
 
     ![](./media/image5.png)
@@ -123,8 +123,8 @@ components such as apps, flows, and tables.
 
     ![A screenshot of a computer Description automatically generated](./media/image21.png)
 
-   **Note :** The page will take 2-5 minutes to load, if the loading fails,
-   close the browser, open Teams and repeat step 2.
+    **Note :** The page will take 2-5 minutes to load, if the loading fails,
+      close the browser, open Teams and repeat step 2.
 
 7.  If prompted, select **Save and reload**.
 
