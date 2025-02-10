@@ -81,9 +81,6 @@
 
 ### **Task 3: Customize your app by adding and configuring controls**
 
-    Let's add a new screen and a button control. However, you can add any
-    type of control.
-
 1.  To add new screen to the app, select **+New screen** from the Tree
     view.
 
