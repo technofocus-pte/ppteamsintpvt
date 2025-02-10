@@ -93,8 +93,8 @@
 
      ![](./media/image17.png)
 
-3.  Double click on the Success message and change it to !!**This was
-    successfully completed**!!.
+3.  Double click on the Success message **This was
+    successfully completed**.
 
      ![](./media/image18.png)
 
