@@ -1,4 +1,4 @@
-# **Lab 6: Create an automated flow that creates a Planner task when a new message is posted in Teams**
+# **Lab 6: Create a flow that creates a Planner task in Teams**
 
 ### **Task 1: Create a new channel and a Plan**
 
