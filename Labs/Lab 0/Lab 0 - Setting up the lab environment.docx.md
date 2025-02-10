@@ -47,7 +47,7 @@
 
 9.  You can now proceed to the next exercise.
 
-## **Exercise 2: Create a team in Microsoft Teams **
+## **Exercise 2: Create a team in Microsoft Teams**
 
 1.  Sign into the Microsoft Teams
     using !!https://teams.microsoft.com/!! with
