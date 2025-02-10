@@ -1,4 +1,4 @@
-# **Lab 8: Create Microsoft Teams approval with custom connector **
+# **Lab 8: Create Microsoft Teams approval with custom connector**
 
 ### **Task 1: Setting up the API**
 
