@@ -33,7 +33,7 @@
 
 ### **Task 2: Create a Model-driven app in Power Apps**
 
-1.  Sign into Power Apps
+1.  Sign into **Power Apps**
     using !!https://make.powerapps.com!!
     with the given admin tenant credentials.
 
