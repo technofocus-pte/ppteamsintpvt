@@ -2,9 +2,8 @@
 
 ### **Task 1: Create a new Team**
 
-1.  To create a new team, select the Teams tab, and then select **Create
-    and join teams and channels** on the top left of the navigation
-    pane.
+1. Sign into the **Microsoft Teams** using !!https://teams.microsoft.com/!! with the given admin tenant credentials. To create a new team,          select the **Teams** tab, and then select **Create and join teams and channels** on the top left of the navigation
+   pane.
 
      ![A screenshot of a computer Description automatically generated](./media/image1.png)
 
