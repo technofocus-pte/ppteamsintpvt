@@ -175,17 +175,13 @@ Teams environment, you first need to install an app into Teams.
 
 ### **Task 3: Edit the table using Power Apps table editor**
 
-    Occasionally, you will want to edit your table and include more data
-    types that are not in the visual table editor.
-
 1.  To open your table in the full editor, select **Build** and then
-    select Test Team and then you can see the items we created for this
+    select **Test Team** and then you can see the items we created for this
     team.
 
      ![A screenshot of a computer Description automatically generated](./media/image28.png)
 
-2.  Select **Tables** and then select the ellipsis (**...**) for the
-    table.
+2.  Click on **EquipmentList** table.
 
      ![](./media/image29.png)
 
@@ -198,7 +194,7 @@ Teams environment, you first need to install an app into Teams.
 3.  First, it might appear as if a mistake has been made because several
     columns that you did not create are displayed. This result is normal
     and an example of the power of Dataverse in action. Click on the
-    4more dropdown to view all the columns, select all and click on
+    **4more** dropdown to view all the columns, **select all** and click on
     **Save.**
 
      ![A screenshot of a computer Description automatically generated](./media/image31.png)
