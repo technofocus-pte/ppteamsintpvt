@@ -130,7 +130,7 @@
 
      ![A screenshot of a computer Description automatically generated](./media/image24.png)
 
-10. Save the app using save icon.
+10. Save the app using **save icon**.
 
     ![](./media/image25.png)
 
@@ -145,7 +145,7 @@
 
     ![A screenshot of a computer Description automatically generated](./media/image27.png)
 
-3.  Select **+** icon next to **TestChannel**.
+3.  Select **+ icon** next to **TestChannel**.
 
     ![A white background with black text Description automatically generated](./media/image28.png)
 
