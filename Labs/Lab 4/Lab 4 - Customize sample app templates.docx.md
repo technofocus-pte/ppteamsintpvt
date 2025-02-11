@@ -63,8 +63,7 @@ components such as apps, flows, and tables.
 
     ![A screenshot of a computer Description automatically generated](./media/image11.png)
 
-8.  Select the channel in the **Teams** team where you want to install
-    the app (here we select the **TestChannel**) and click '**Set up a tab**'
+8.  Select the channel - **TestChannel** in the **Test Team** and click '**Go**'
     to continue.
 
     ![](./media/image12.png)
@@ -119,7 +118,7 @@ components such as apps, flows, and tables.
 
     ![](./media/image20.png)
 
-6.  Select the sample app template that you installed.
+6.  Select the sample app template that you installed i.e. **Milestones** app.
 
     ![A screenshot of a computer Description automatically generated](./media/image21.png)
 
