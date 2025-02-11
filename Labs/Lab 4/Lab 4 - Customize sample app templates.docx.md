@@ -24,7 +24,7 @@ components such as apps, flows, and tables.
 
     ![A screenshot of a computer Description automatically generated](./media/image3.png)
 
-4.  In the **AppPackages** folder go to the 'Milestones' folder. Find
+4.  In the **AppPackages** folder go to the '**Milestones**' folder. Find
     the **TeamsCustomApp.zip** file. Note this file location, we need
     this in next task.
 
@@ -33,7 +33,7 @@ components such as apps, flows, and tables.
 ### **Task 2: Upload the app via the Teams client**
 
 1.  Go to **Teams** in your web browser, by following the link
-    !!https://teams.microsoft.com/!!.
+    !!https://teams.microsoft.com/!!. If required, sign in with the given tenant admin credentials.
 
     ![](./media/image5.png)
 
@@ -63,7 +63,7 @@ components such as apps, flows, and tables.
 
     ![A screenshot of a computer Description automatically generated](./media/image11.png)
 
-8.  Select the channel - **TestChannel** in the **Test Team** and click '**Go**'
+8.  Select the channel - **TestChannel** in the **Test Team** and click **Go**
     to continue.
 
     ![](./media/image12.png)
@@ -101,7 +101,7 @@ components such as apps, flows, and tables.
 
     ![](./media/image5.png)
 
-2.  Select **View more apps (…).** Select **Power Apps**.
+2.  Select **View more apps (…)** Select **Power Apps**.
 
     ![](./media/image17.png)
 
@@ -138,17 +138,17 @@ components such as apps, flows, and tables.
 
 ### **Task 2: Remove sample data**
 
-When you install sample app templates, the tables might be pre-populated
-with sample data. The following table lists the sample app templates and
-the list of tables with the sample data to be removed:
-
-To remove data from the sample app templates:
+   When you install sample app templates, the tables might be pre-populated
+   with sample data. The following table lists the sample app templates and
+   the list of tables with the sample data to be removed:
+   
+   To remove data from the sample app templates:
 
 1.  Considering you are in the app, select **Data** from the left pane.
 
     ![A screenshot of a computer Description automatically generated](./media/image25.png)
 
-2.  Select (… ) next to the table name **project Milestones.**
+2.  Select **(…)** next to the table name **project Milestones.**
     Select **Edit data**.
 
     ![A screenshot of a computer Description automatically generated](./media/image26.png)
@@ -173,7 +173,7 @@ To remove data from the sample app templates:
 
     ![A screenshot of a computer Description automatically generated](./media/image30.png)
 
-3.  Click on the image on the screen.
+3.  Click on the **image** on the screen.
 
     ![A screenshot of a computer Description automatically generated](./media/image31.png)
 
@@ -182,7 +182,7 @@ To remove data from the sample app templates:
 
     ![A screenshot of a computer Description automatically generated](./media/image32.png)
 
-5.  Select **Image** control in Media.
+5.  Select **Image** control in **Media**.
 
     ![A screenshot of a computer Description automatically generated](./media/image33.png)
 
@@ -207,7 +207,7 @@ To remove data from the sample app templates:
    for information about the app. Use caution when changing this formula.
 
 1.  Considering you are still on the Power Apps editor window and
-    Milestone app is opened.
+   **Milestone** app is opened.
 
 2.  Select the **Tree view** and then select **About Screen**.
 
@@ -274,7 +274,7 @@ To remove data from the sample app templates:
 
 ### **Task 5: Change the screen background color**
 
-   ** Note:**The Milestone app leverages global theme variables to ensure consistent
+   **Note:** The Milestone app leverages global theme variables to ensure consistent
    user experience. If you modify a screen fill, the modified screen will
    no longer use the standard app theme.
 
@@ -282,11 +282,11 @@ To remove data from the sample app templates:
     Milestone app is opened.
 
 2.  Select Tree view from the left pane. Select **About Screen** from
-    Tree view.
+    **Tree view**.
 
     ![A screenshot of a computer Description automatically generated](./media/image42.png)
 
-3.  Select Fill from the property list on the top left.
+3.  Select **Fill** from the property list on the top left.
 
     ![](./media/image43.png)
 
@@ -302,8 +302,6 @@ To remove data from the sample app templates:
    ![A screenshot of a computer Description automatically generated](./media/image45.png)
 
 ### **Task 6: Publish app updates to Teams**
-
-To save and publish the changes to the sample app:
 
 1.  Select **Save** from the top-right.
 
@@ -321,7 +319,7 @@ To save and publish the changes to the sample app:
 
     ![A screenshot of a computer Description automatically generated](./media/image49.png)
 
-5.  Milestone app is now added to **TestChannel** and then click on
+5.  Select **Milestone** app under **TestChannel** and then click on
     **Save and close**.
 
     ![A screenshot of a computer Description automatically generated](./media/image50.png)
