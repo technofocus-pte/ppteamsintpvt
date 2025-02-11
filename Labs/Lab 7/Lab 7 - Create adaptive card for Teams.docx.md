@@ -2,8 +2,7 @@
 
 ### **Task 1: Install Workflows app in Teams** 
 
-     **Note:** We already have installed Workflows app in Teams in the
-     previous lab. So, you can skip this task and move forward to Taks 2.
+   **Note:** We already have installed Workflows app in Teams in the previous lab. So, you can skip this task and move forward to Taks 2.
 
 1.  Sign into the Microsoft Teams
     using !!**https://teams.microsoft.com/**!! with
