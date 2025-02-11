@@ -1,5 +1,4 @@
-# **Lab 5: Build a canvas app to have a conversation about your business
-data in a Teams app**
+# **Lab 5: Build a canvas app to have a conversation about your business data in a Teams app**
 
 ### **Task 1: Create a new Team**
 
