@@ -3,51 +3,51 @@
 ### **Task 1: Add a list to a Teams channel**
 
 1.  Sign into the **Microsoft Teams**
-    using !!https://teams.microsoft.com/!! with
-    your Office 365 tenant credentials.
+    using !!https://teams.microsoft.com/!!
+    with your Office 365 tenant credentials.
 
-2.  Select **Teams** from the left navigation pane and then select
+3.  Select **Teams** from the left navigation pane and then select
     **TestChannel** where you want to add a list. 
 
      ![A screenshot of a computer Description automatically generated](./media/image1.png)
 
-3.  Click on the **Add a tab** icon.
+4.  Click on the **Add a tab** icon.
 
      ![A screenshot of a computer Description automatically generated](./media/image2.png)
 
-4.  Search **Lists** and click on **Lists**.
+5.  Search **Lists** and click on **Lists**.
 
     ![A screenshot of a search results Description automatically generated](./media/image3.png)
 
-5.  Click on **Save**.
+6.  Click on **Save**.
 
     ![A screenshot of a computer Description automatically generated](./media/image4.png)
 
-6.  On the **Welcome to Lists** page, click on **Create a list** tab.
+7.  On the **Welcome to Lists** page, click on **Create a list** tab.
 
     ![A screenshot of a computer Description automaticallygenerated](./media/image5.png)
 
-7.  Select a template that matches your scenario, here we have selected
+8.  Select a template that matches your scenario, here we have selected
     **Event itinerary** template.
 
      ![A screenshot of a computer Description automatically generated](./media/image6.png)
 
-8.  Scroll through the template to see the default columns that come
+9.  Scroll through the template to see the default columns that come
     with it.
 
      ![A screenshot of a computer Description automatically generated](./media/image7.png)
 
-9.  Scroll down and select **Use template**.
+10.  Scroll down and select **Use template**.
 
      ![A screenshot of a computer Description automatically generated](./media/image8.png)
 
-10. Give the list a name – !!Event itinerary!! and description – !!Event list!!,
+11. Give the list a name – !!Event itinerary!! and description – !!Event list!!,
     keep the default chosen color and icon (or you can change the color
     and icon), and Select **Create**.
 
      ![A screenshot of a computer Description automatically generated](./media/image9.png)
 
-11. The list is created with the same columns that are in the template. 
+12. The list is created with the same columns that are in the template. 
 
      ![A screenshot of a computer Description automatically generated](./media/image10.png)
 
