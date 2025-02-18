@@ -80,8 +80,8 @@ components such as apps, flows, and tables.
 
     ![A screenshot of a computer Description automatically generated](./media/image14.png)
 
-12. On the next page of **Manage projects effectively by key
-    milestones,** click on **Continue.**
+12. If, **"Manage projects effectively by key
+    milestones"** page appears, click on **Continue.**
 
    ![A screenshot of a computer Description automatically generated](./media/image15.png)
 
@@ -89,7 +89,7 @@ components such as apps, flows, and tables.
 
    ![A screenshot of a computer Description automatically generated](./media/image16.png)
 
-   **Note:** This App can be Uploaded via the Teams admin center also.
+   **Note:** This App can be uploaded via the Teams admin center also.
 
 ## **Exercise 2: Open the sample app templates in Power Apps Studio**
 
@@ -123,7 +123,7 @@ components such as apps, flows, and tables.
     ![A screenshot of a computer Description automatically generated](./media/image21.png)
 
     **Note :** The page will take 2-5 minutes to load, if the loading fails,
-      close the browser, open Teams and repeat step 2.
+      close the browser, open Teams and repeat from step 2.
 
 7.  If prompted, select **Save and reload**.
 
@@ -142,20 +142,18 @@ components such as apps, flows, and tables.
    with sample data. The following table lists the sample app templates and
    the list of tables with the sample data to be removed:
    
-   To remove data from the sample app templates:
-
-1.  Considering you are in the app, select **Data** from the left pane.
+1.  Make sure you are still on the Power Apps editor window and that the Milestone app is opened select **Data** from the left pane.
 
     ![A screenshot of a computer Description automatically generated](./media/image25.png)
 
-2.  Select **(…)** next to the table name **project Milestones.**
+2.  Select **More actions (…)** next to the table name **Project Milestones**.
     Select **Edit data**.
 
     ![A screenshot of a computer Description automatically generated](./media/image26.png)
 
 3.  Select the rows that you want to delete in the sample data, here we
     select the **Feedback** row containing sample data, and click on
-    **Delete 1 record**.
+    **Delete 1 record(s)**.
 
     ![](./media/image27.png)
 
@@ -173,32 +171,26 @@ components such as apps, flows, and tables.
 
     ![A screenshot of a computer Description automatically generated](./media/image30.png)
 
-3.  Click on the **image** on the screen.
+3.  Click on the **image** on the screen as shown in the image below.
 
     ![A screenshot of a computer Description automatically generated](./media/image31.png)
 
-4.  Select **Insert** from the left navigation pane of Power Apps
-    editor.
-
-    ![A screenshot of a computer Description automatically generated](./media/image32.png)
-
-5.  Select **Image** control in **Media**.
-
-    ![A screenshot of a computer Description automatically generated](./media/image33.png)
-
-6.  From the properties pane on the right side, select
-    the **Image** drop-down.
+4. From the properties pane that opens on the right side of the screen, select **Image** drop-down.
 
     ![A screenshot of a computer Description automatically generated](./media/image34.png)
 
-7.  From the drop-down select **+ Upload**.
+5.  From the drop-down select **+ Upload**.
 
     ![A screenshot of a computer Description automatically generated](./media/image35.png)
 
-8.  Select image for your company logo or you can use sample image from
+6.  You can select an image for your company or you can use sample image from
     **C:\Labfiles** and then select **Open**.
 
+    **Note**: If a pop-up appears that says "**A file with that name is alreay exists**" then select **Replace**.  
+
     ![A screenshot of a computer Description automatically generated](./media/image36.png)
+
+[
 
 ### **Task 4: Change the About screen text**
 
@@ -271,6 +263,8 @@ components such as apps, flows, and tables.
     about this app**.
 
     ![A screenshot of a computer Description automatically generated](./media/image41.png)
+
+]: #
 
 ### **Task 5: Change the screen background color**
 
