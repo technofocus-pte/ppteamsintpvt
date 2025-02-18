@@ -8,12 +8,11 @@
 
      ![A screenshot of a computer Description automatically generated](./media/image1.png)
 
-2.  Select the **Environments** option on the left-hand side of the
-    Portal. Click on the **Contoso (default)** environment.
+2.  Select **Environments** from the left navigation pane. Click on the **Contoso (default)** environment.
 
      ![](./media/image2.png)
 
-3.  In the **Add database** section and click on** +Add database.**
+3.  In the **Add database** section and click on **+Add database.**
 
      ![A screenshot of a computer Description automatically generated](./media/image3.png)
 
@@ -23,10 +22,10 @@
      ![A screenshot of a computer Description automatically generated](./media/image4.png)
 
 5.  This will take 2-3 minutes, and the environment will be prepared.
-    You should see the state as **Ready** and Dataverse is also
-    added**.**
+    You should see the state as **Ready** and the Dataverse is also
+    added.
 
-     **Note:** You can refresh the page if the environment takes too longto be ready.
+     **Note:** You can refresh the page if the environment takes too long to be ready.
     
      ![A screenshot of a computer Description automatically generated](./media/image5.png)
 
@@ -73,11 +72,7 @@
 
      ![A screenshot of a computer Description automatically generated](./media/image12.png)
 
-8.  **Save** the app using save icon from the toolbar.
-
-     ![A screenshot of a computer Description automatically generated](./media/image13.png)
-
-9.  Select **Save and Publish** from the toolbar.
+8.  Select **Save and Publish** from the toolbar.
 
      ![A screenshot of a computer Description automatically generated](./media/image14.png)
 
@@ -120,7 +115,7 @@
 
      ![](./media/image20.png)
 
-4.  **Add to Teams** panel opens on the right-side of the screen.
+4.  **Add to Teams** panel opens on the right-side of the screen. Select **Add to Teams**.
 
      ![](./media/image21.png)
 
