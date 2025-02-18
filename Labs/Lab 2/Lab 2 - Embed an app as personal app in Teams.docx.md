@@ -12,7 +12,7 @@
 
      ![](./media/image2.png)
 
-3.  In the **Add database** section and click on **+Add database.**
+3.  In the **Add Dataverse** section and click on **+ Add Dataverse**.
 
      ![A screenshot of a computer Description automatically generated](./media/image3.png)
 
