@@ -52,7 +52,7 @@
 
     ![A screenshot of a computer Description automatically generated](./media/image11.png)
 
-12. On the left side Navigation pane, click on the **+New plan** tab.
+12. On the left side navigation pane, click on the **+New plan** tab.
 
     ![A screenshot of a computer Description automatically generated](./media/image12.png)
 
@@ -70,7 +70,7 @@
     ![A screenshot of a computer Description automatically generated](./media/image15.png)
 
 15. On the **Create a plan from a template** page, name the plan as
-    !!**Automate tasks**!!, Assign **Task inspection** group and click on
+    !!**Automate tasks**!!, assign **Task inspection** group and click on
     **Create.**
 
     ![A screenshot of a computer Description automatically generated](./media/image16.png)
@@ -87,7 +87,7 @@
     !!**https://teams.microsoft.com/**!! . Sign in with the given admin tenant credetials, if required.
 
 2.  From the left navigation pane, click on **View more apps (…)**,
-    search for workflows and click on **Add** button to add workflows to
+    search for **Workflows** and click on **Add** button to add **Workflows** to
     teams
 
      ![A screenshot of a computer Description automatically generated](./media/image18.png)
@@ -108,7 +108,7 @@
      ![A screenshot of a computer Description automatically generated](./media/image21.png)
 
 6.  Notice how **Power Automate** initiates a new flow within Teams.
-    Rename your flow by selecting the word *Untitled* in the upper left
+    Rename your flow by selecting the word **Untitled** in the upper left
     of the menu bar and type in **Autoflow1** as new name. Next, we
     create the flow.
 
@@ -147,17 +147,19 @@
     content, scroll down and select **Message subject**. (Alternatively,
     you can input *subject* in the Search field to narrow the results.)
 
+    **Note**: You can zoom out the screen for the better view.
+
     ![A screenshot of a computer Description automatically generated](./media/image28.png)
 
-6.  In the middle drop-down menu, select **contains**.
+7.  In the middle drop-down menu, select **contains**.
 
     ![A screenshot of a computer Description automatically generated](./media/image29.png)
 
-7.  Enter **task** in the box on the right.
+8.  Enter !!task!! in the box on the right.
 
      ![A screenshot of a computer Description automatically generated](./media/image30.png)
 
-8.  Now, when the **Message subject** contains the word "task," it
+9.  Now, when the **Message subject** contains the word "task," it
     performs actions in the **If yes** area. The conditions in Power
     Automate are case-sensitive, so you need to add a few more
     conditions to detect common variations such as "Task" and "TASK."
@@ -165,14 +167,14 @@
 
     ![A screenshot of a computer Description automatically generated](./media/image31.png)
 
-9.  Use the same condition each time with **Message subject** from
+10.  Use the same condition each time with **Message subject** from
     dynamic content. Add a two more conditions to detect common
-    variations such as "Task" and "TASK." Change the condition to **Or**
+    variations such as !!Task!! and !!TASK!!. Change the condition to **Or**
     as shown below.
 
     ![A screenshot of a computer Description automatically generated](./media/image32.png)
 
-10. The **Condition** action provides two options for further
+11. The **Condition** action provides two options for further
     actions, **If yes** and **If no**. If the condition is true, then we
     create a new Planner task. We don't need any actions if the
     condition is false, so we leave the **If no** condition blank. In
@@ -180,12 +182,12 @@
 
     ![A screenshot of a computer Description automatically generated](./media/image33.png)
 
-11. In the search box enter **planner** and then select **Create a
+12. In the search box enter !!planner!! and then select **Create a
     task** from the results.
 
     ![A screenshot of a computer Description automatically generated](./media/image34.png)
 
-12. The **Create a task** step appears in the **If yes** field for
+13. The **Create a task** step appears in the **If yes** field for
     your **Condition** step. Fill out the needed information for the
     Planner task as in this table.
 
@@ -199,7 +201,7 @@
     
     ![A screenshot of a computer Description automatically generated](./media/image35.png)
 
-13. When you complete the task, select **Save** at the bottom of the
+14. When you complete the task, select **Save** at the bottom of the
     editing window, or in the toolbar to complete the flow.
 
     ![A screenshot of a computer Description automatically generated](./media/image36.png)
@@ -216,9 +218,9 @@
 
     ![A screenshot of a computer Description automatically generated](./media/image38.png)
 
-3.  In the subject line, enter a subject including the word **Task** and
-    enter the message as **New task for the team, this is urgent, please
-    start working on this ASAP.** And click on the **Post** button.
+3.  In the subject line, enter a subject including the word !!Task!! and
+    enter the message as !!New task for the team, this is urgent, please
+    start working on this ASAP!!. And click on the **Post** button.
 
     ![A screenshot of a computer Description automatically generated](./media/image39.png)
 
@@ -228,8 +230,8 @@
 
     ![A screenshot of a computer Description automatically generated](./media/image40.png)
 
-5.  Select **My Tasks** from the left navigation menu for the Planner.
-    The planner will show a new task assigned under the plan name
+5.  Select **My Tasks** from the left navigation menu of the **Planner**.
+    The Planner will show a new task assigned under the plan name
     **Automate tasks.**
 
     ![A screenshot of a computer Description automatically generated](./media/image41.png)
@@ -243,8 +245,7 @@
 
     ![A screenshot of a computer Description automatically generated](./media/image43.png)
 
-8.  From the **Home** tab, select the flow that you created, listed
-    under **Flow name**. The details screen view shows you more
+8.  The details screen view shows you more
     information on your flow and the **28-day run history**.
 
      ![A screenshot of a computer Description automatically generated](./media/image44.png)
