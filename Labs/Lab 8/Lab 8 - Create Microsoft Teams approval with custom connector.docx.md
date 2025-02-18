@@ -20,8 +20,7 @@
 
      ![A screenshot of a computer Description automatically generated](./media/image3.png)
 
-6.  Copy the content from the page and save it on notepad as
-    swagger.json. You'll use this file later in the exercise.
+6.  Right click the page and then save the file as swagger.json. You'll use this file later in the exercise.
 
      ![Screenshot of an arrow pointing to the save as button.](./media/image4.png)
     
@@ -68,9 +67,9 @@
 
      ![A screenshot of a computer Description automatically generated](./media/image13.png)
 
-7.  In **General Information**, enter a **Description** as !!**Custom
-    connector for Contoso Invoicing API**!! and a **Host** as
-    !!**contosoinvoicing.azurewebsites.net**!!.
+7.  In **General Information**, enter a **Description** as !!Custom
+    connector for Contoso Invoicing API!! and a **Host** as
+    !!contosoinvoicing.azurewebsites.net!!.
 
      ![](./media/image14.png)
 
@@ -251,7 +250,7 @@
 
 11. Select the **Approval type – Approve/Reject - First to respond** ,
     enter !!**Approve request**!! as **Title**, under **Assigned to** field,
-    enter !!admin!! and then select **Mod Admin** from suggestion.
+    enter !!admin!! and then select **Mod Administrator** from suggestion.
     Collapse the pane.
 
      ![A screenshot of a computer Description automatically generated](./media/image50.png)
@@ -326,26 +325,28 @@
 2.  Select **View more apps (…)** from left navigation pane, search for
     the **approvals** app, and then select it.
 
+    **Note**: Approvals solution can take up to 5-10 minutes to install in the environment, when running an approval for the very first time.
+
      ![A screenshot of a search engine Description automatically generated](./media/image65.png)
 
-3.  View your received and sent approvals.
+4.  View your received and sent approvals. 
 
      ![A screenshot of a computer Description automatically generated](./media/image66.png)
 
-4.  Click on **Requested** to take an action that activates your custom
+5.  Click on **Requested** to take an action that activates your custom
     connector’s trigger.
 
      ![A screenshot of a computer Description automatically generated](./media/image67.png)
 
-5.  Select **Approve**.
+6.  Select **Approve**.
 
      ![A screenshot of a computer Description automatically generated](./media/image68.png)
 
-6.  You can now see the status is updated as **Approved**.
+7.  You can now see the status is updated as **Approved**.
 
      ![A screenshot of a computer Description automatically generated](./media/image69.png)
 
-7.  Come back to power automate portal and you can see your flow ran
+8.  Come back to power automate portal and you can see your flow ran
     successfully.
 
      ![A screenshot of a computer Description automatically generated](./media/image70.png)
