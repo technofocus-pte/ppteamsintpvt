@@ -42,8 +42,8 @@
      ![A screenshot of a computer Description automatically generated](./media/image8.png)
 
 11. Give the list a name – !!Event itinerary!! and description – !!Event list!!,
-    keep the default chosen color and icon (or you can change the color
-    and icon), and Select **Create**.
+    keep the default chosen color and icon or you can change the color
+    and icon and then select **Create**.
 
      ![A screenshot of a computer Description automatically generated](./media/image9.png)
 
@@ -61,11 +61,7 @@
 2.   Select **Power Apps** > **Create an app**.
 
      ![A screenshot of a computer Description automatically generated](./media/image12.png)
-
-     **Note:** If you have never used Power Apps in Teams before, you'll be
-     prompted to add the Power Apps app to Teams. Select **Add** to install
-     the Power Apps app in Teams
-
+    
 3.  In the modal that appears, enter the name as !!Event Itinerary app!!
     for your app and then select **Save**.
 
@@ -90,13 +86,13 @@
 
      ![](./media/image17.png)
 
-3.  Double click on the Success message **This was
+3.  Double click on the **Success message**: **This was
     successfully completed**.
 
      ![](./media/image18.png)
 
-4.  Change the success message to !!**New event itinerary successfully
-    completed**!!.
+4.  Change the success message to !!New event itinerary successfully
+    completed!!.
 
      ![](./media/image19.png)
 
@@ -118,17 +114,14 @@
      ![A screenshot of a video Description automatically generated](./media/image22.png)
 
 8.  With the button selected on the canvas or from the tree view, select
-    **Text** property from the **property selector**.
+    **Text** property from the **property selector** and chnage it to !!"Done"!!.
 
-     ![](./media/image23.png)
+     ![](./media/image23.1.png)
 
-9.  Change the text property to !!**Now()**!! function.
+9.  With the button selected on the canvas or from the tree view, select
+    **OnSelect** property from the **property selector** and change it to !!Navigate(Screen1);!!.
 
-    **Note:** The **Now()** function returns the current date and time in
-    your local time zone, and the **Text** function formats values such as
-    dates, times, and currency.
-
-     ![A screenshot of a computer Description automatically generated](./media/image24.png)
+     ![A screenshot of a computer Description automatically generated](./media/image24.1.png)
 
 10. Save the app using **save icon**.
 
@@ -153,7 +146,7 @@
 
     ![A screenshot of a computer Description automatically generated](./media/image29.png)
 
-5.  Select **Teams**.
+5.  Select **Teams** from the left navigation pane.
 
     ![](./media/image30.png)
 
