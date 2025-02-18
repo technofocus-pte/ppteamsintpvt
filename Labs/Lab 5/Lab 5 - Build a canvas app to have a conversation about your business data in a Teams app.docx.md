@@ -373,8 +373,9 @@
 
      ![A screenshot of a computer AI-generated content may be incorrect.](./media/image63.png)
 
-3.  You should only see two buttons: **Start a conversation** and **Join
-    a conversation**.
+3.  You should only see **Start a conversation** button.
+
+   ![A screenshot of a computer AI-generated content may be incorrect.](./media/image3.1.1.png)
 
 4.  Select **Start a conversation**.
 
@@ -394,6 +395,8 @@
     &nbsp;
 
     - Submit button (to submit the message)
+  
+   ![A screenshot of a computer AI-generated content may be incorrect.](./media/image5.1.1.png)
 
 6.  Select a team.
 
@@ -403,9 +406,8 @@
 
 9.  Select **Submit**. All the additional fields/controls get hidden.
 
-     ![A screenshot of a computer AI-generated content may be incorrect.](./media/image64.png)
+10. The data entered in the app will create a new record in **Coversations** table. To check that, select **Data** from the left navigation pane of the Power Apps editor, click on **More actions (...)** infront of the **Conversations** table and then select **Edit data** to see the data in the table. 
 
-10. Select **Join conversation** to be taken to the team and channel
-    chat where the last message was sent.
-
-     ![Testing the app](./media/image65.png)
+    ![A screenshot of a computer AI-generated content may be incorrect.](./media/image10.1.1.png)
+    
+    ![A screenshot of a computer AI-generated content may be incorrect.](./media/image10.1.2.png)
