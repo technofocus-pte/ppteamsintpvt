@@ -12,7 +12,7 @@ The Power Apps application for Teams lets you create, edit, and delete
 apps and tables in Dataverse for Teams. To provide the Dataverse for
 Teams environment, you first need to install an app into Teams.
 
-1.  Sign into the **Microsoft Teams** using !!https://teams.microsoft.com/!! with the given admin tenant credentials. and then select **More added apps (...)**.
+1.  Sign into the **Microsoft Teams** using !!https://teams.microsoft.com/!! with the given admin tenant credentials. and then select **View more apps (...)**.
 
      ![A screenshot of a computer Description automatically generated](./media/image1.png)
 
@@ -25,7 +25,7 @@ Teams environment, you first need to install an app into Teams.
 
      ![A screenshot of a computer Description automatically generated](./media/image3.png)
 
-4.  Pop-up will appear on the screen. You can browse through the tips
+4.  A pop-up will appear on the screen. You can browse through the tips
     shared or can **Skip** the screen.
 
      ![A screenshot of a computer Description automatically generated](./media/image4.png)
@@ -63,12 +63,8 @@ Teams environment, you first need to install an app into Teams.
     
      ![A screenshot of a computer Description automatically generated](./media/image9.png)
 
-5.  When your environment is provisioned, a pop-up window will display
-    in the lower-right corner of your screen, letting you know that the
-    process has finished.
-
-     ![A screenshot of a computer Description automatically generated](./media/image10.png)
-
+5.  When your environment is provisioned, you should be on Power Apps editor screen. If the process of provisioning environment is taking more      than 2-3 minutes then close the pop-up window and follow the above steps from Step 2 - Step 4 again. 
+   
 6.  At this stage, the Power Apps editor will appear. Enter the
     name !!**Equipment**!! for your app and then select **Save**.
 
@@ -82,7 +78,7 @@ Teams environment, you first need to install an app into Teams.
 
 ### **Task 2: Create your first table to store data**
 
-1.  While editing an app in the **Power Apps editor** for Teams, Click
+1.  While editing an app in the **Power Apps editor** for Teams, click
     the **Data** icon. Select the **Create new table** button.
 
      ![A screenshot of a computer Description automatically generated](./media/image12.png)
@@ -131,12 +127,12 @@ Teams environment, you first need to install an app into Teams.
 
      ![A screenshot of a computer Description automatically generated](./media/image20.png)
 
-9.  Click on **+New choice** and enter !!**Testing Lab**!!, then Select **Save** when
+9.  Click on **+New choice** and enter !!**Testing Lab**!!, then select **Save** when
     finished.
 
      ![](./media/image21.png)
 
-10. Select **+ New rows** to fill out your table with data.
+10. Select **+ New row** to fill out your table with data.
 
      ![](./media/image22.png)
 
@@ -156,7 +152,7 @@ Teams environment, you first need to install an app into Teams.
 
      ![A screenshot of a computer Description automatically generated](./media/image24.png)
 
-12. Now that the data is ready. Click on **With data** in the center and
+12. Now the data is ready. Click on **With data** in the center and
     select the **Data source** and continue to add the
     Data **EquipmentLists** onto the screen.
 
@@ -194,7 +190,7 @@ Teams environment, you first need to install an app into Teams.
 3.  First, it might appear as if a mistake has been made because several
     columns that you did not create are displayed. This result is normal
     and an example of the power of Dataverse in action. Click on the
-    **4more** dropdown to view all the columns, **select all** and click on
+    **4 more** dropdown to view all the columns, click on **select all** and click on
     **Save.**
 
      ![A screenshot of a computer Description automatically generated](./media/image31.png)
@@ -211,9 +207,9 @@ Teams environment, you first need to install an app into Teams.
 
      ![A screenshot of a computer Description automatically generated](./media/image33.png)
 
-6.  Add a Column named as !!**Category**!! and to set its Datatype as **Text**,
-    select **arrow** next to **Text** and then under **Single line of
-    text**, select **Plain text**.
+6.  Enter !!**Category**!! as the Disaply name of the column. To set its Datatype as **Text**,
+    select drop-down menu of the Datatype field, select **Text** and under **Single line of
+    text** select **Plain text**.
 
      ![A screenshot of a computer Description automatically generated](./media/image34.png)
 
@@ -221,7 +217,7 @@ Teams environment, you first need to install an app into Teams.
 
      ![A screenshot of a computer Description automatically generated](./media/image35.png)
 
-6.  After you save the changes, you will have the **New column** added
+6.  After you save the changes, you will have the **Category column** added
     to your table.
 
      ![A screenshot of a computer Description automatically generated](./media/image36.png)
@@ -241,25 +237,27 @@ Teams environment, you first need to install an app into Teams.
 
 10. Select **Save**.
 
+    **Note**: If your app opens in "read-only" mode, select **Override**.
+    
      ![A screenshot of a computer Description automatically generated](./media/image40.png)
 
-11. Select **Publish to Teams**.
+12. Select **Publish to Teams**.
 
      ![A screenshot of a computer Description automatically generated](./media/image41.png)
 
-12. Select **Next** on Publish window.
+13. Select **Next** on **Publish** window.
 
      ![A screenshot of a computer Description automatically generated](./media/image42.png)
 
-13. Select **+ icon** next to **TestChannel**.
+14. Select **+ icon** next to **TestChannel**.
 
      ![A screenshot of a computer Description automatically generated](./media/image43.png)
 
-14. Select **Equipment** app and then select **Save and close**.
+15. Select **Equipment** app and then select **Save and close**.
 
      ![A screenshot of a computer Description automatically generated](./media/image44.png)
 
-15. Select **Teams** from left navigation pane, Select **TestChannel**
+16. Select **Teams** from the left navigation pane, select **TestChannel**
     and you can see the **Equipment** app is now added.
 
      ![A screenshot of a computer Description automatically generated](./media/image45.png)
