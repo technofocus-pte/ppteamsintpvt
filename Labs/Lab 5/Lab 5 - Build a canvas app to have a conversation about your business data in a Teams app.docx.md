@@ -238,6 +238,7 @@
 5.	Update the properties of the **startaconversation_Button** by selecting it one by one from **Property selector**.
    
    **Text**: !!"Start a conversation"!!
+   
    **OnSelect**: !!Set(enterMessage,true)!!
 
    ![A screenshot of a computer Description automatically generated](./media/image5.1.png)
@@ -255,9 +256,13 @@
    ![A screenshot of a computer Description automatically generated](./media/image8.1.png)
 
 9.	Update the following properties of the **team_Combobox** by selecting it one by one from **Property selector**.
+    
    **Items**:  !!MicrosoftTeams.GetAllTeams().value!!
+   
    **Text**: !!"Team"!!
+   
    **Tooltip**:  !!"Team"!!
+   
    **Visible**:  !!enterMessage!!
 
    ![A screenshot of a computer Description automatically generated](./media/image9.1.png)
@@ -269,8 +274,11 @@
 11. Add another combo box, rename it to !!channel_Combobox!!, update the following properties and then drag it below the **team_Combobox**.
 
    **Items**: !!If(!IsBlank(team_Combobox.Selected.id),MicrosoftTeams.GetChannelsForGroup(team_Combobox.Selected.id).value)!!
+   
    **Text**: !!"Channel"!!
+   
    **Tooltip**: !!"Channel"!!
+   
    **Visible**: !!enterMessage!!
 
    ![A screenshot of a computer Description automatically generated](./media/image11.1.png)
@@ -282,8 +290,11 @@
    ![A screenshot of a computer Description automatically generated](./media/image12.1.png)
    
 13. Rename the Text box to !!message_TextBox!!, update the following properties of the textbox and then drag it below the **channel_Combobox**.
-   **Value**:	""
+
+    **Value**:	""
+    
    **Placeholder**:	!!“Type message here”!!
+   
    **Visible**: !!enterMessage!!
 
    ![A screenshot of a computer Description automatically generated](./media/image13.1.png)
@@ -293,19 +304,28 @@
    ![A screenshot of a computer Description automatically generated](./media/image14.1.png)
    
 15. Rename the Button to !!submit_Button!!, update the following properties of the button and then drag it below the **message_TextBox**.
-   **Text**:	"Submit"
-   **Visible**: enterMessage
+
+    **Text**:	!!"Submit"!!
+    
+   **Visible**: !!enterMessage!!
 
     ![A screenshot of a computer Description automatically generated](./media/image15.1.png)
 
-16. From the **Property selector**, select the **OnSelect** property of the **submit_Button** and copy the following formula.
+17. From the **Property selector**, select the **OnSelect** property of the **submit_Button** and copy the following formula.
 
    '''
+   
    Patch(Conversations,Defaults(Conversations),{'New column':"1",Team:team_Combobox.Selected.id,'Team Channel':channel_Combobox.Selected.id,Company:'Companies List'.Selected});
+
+   
    Set(enterMessage,false); 
+   
    Reset(team_Combobox);
+   
    Reset(channel_Combobox);
+   
    Reset(message_TextBox);
+   
    '''
 
    ![A screenshot of a computer Description automatically generated](./media/image16.1.png)
