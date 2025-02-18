@@ -53,7 +53,7 @@
     using !!https://teams.microsoft.com/!! with
     your Office 365 tenant credentials.
 
-2.  On Welcome to Teams window, select **Get Started**.
+2.  On **Get to know Teams** window, select **Get Started**.
 
      ![A screenshot of a computer Description automatically generated](./media/image9.png)
 
@@ -71,7 +71,7 @@
      ![A screenshot of a computer Description automatically generated](./media/image12.png)
 
 6.  Enter the Team name – !!**Test Team**!!,
-    name the first channel as !!**TestChannel**!! and Click on **Private**.
+    name the first channel as !!**TestChannel**!! and click on **Private**.
 
      ![A screenshot of a computer Description automatically generated](./media/image13.png)
 
