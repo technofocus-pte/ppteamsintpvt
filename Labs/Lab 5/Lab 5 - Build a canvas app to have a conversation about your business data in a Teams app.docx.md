@@ -229,174 +229,86 @@
 
      ![A screenshot of a computer Description automatically generated](./media/image43.png)
 
-4.  Update the following properties of the button. You can update the properties by seleting it one by one from **Property selector**.
+4. Double-click on the **Button1** under the **Screen3** from the **Tree view** and rename it to !!startaconversation_Button!!.
 
-     **Name:** !!startaconversation_Button!!
-    
-     **Text:** !!"Start a conversation"!!
-    
-     **Font size:** 12
-    
-     **Size:** Width -200 and Height- 32
-    
-     **Position:** X-583 and Y-100
-    
-     **OnSelect:** !!Set(enterMessage,true)!!
-    
-     ![A screenshot of a computer AI-generated content may be incorrect.](./media/image44.png)
-    
-     ![A screenshot of a computer Description automatically generated](./media/image45.png)
+   ![A screenshot of a computer Description automatically generated](./media/image4.1.png)
 
-5.  Select **+ (Insert)** > **Input** > **Combo box**.
+   ![A screenshot of a computer Description automatically generated](./media/image4.2.png)
+   
+5.	Update the properties of the **startaconversation_Button** by selecting it one by one from **Property selector**.
+   
+   **Text**: !!"Start a conversation"!!
+   **OnSelect**: !!Set(enterMessage,true)!!
 
-     ![A screenshot of a computer AI-generated content may be incorrect.](./media/image46.png)
+   ![A screenshot of a computer Description automatically generated](./media/image5.1.png)
 
-6.  Name the Combo box as - !!**team_Combobox**!! and select **Advanced** tab and then update the following properties of the Combo box. Or you         can update the properties by seleting it one by one from **Property selector**.
+6.	Select **startaconversation_Button** on the canvas and drag it at the place shown in the image below.
 
-     **Items:** !!MicrosoftTeams.GetAllTeams().value!!
-    
-     **Width:** 320
-    
-     **Height:** 32
-    
-     **X:** !!Parent.Width/2 - team_ComboBox.Width/2!!
-    
-     **Y:** 200
-    
-     **Text:** !!"Team"!!
-    
-     **Tooltip:** !!"Team"!!
-    
-     **Visible:** !!enterMessage!!
-    
-     ![A screenshot of a computer AI-generated content may be incorrect.](./media/image47.png)
+   ![A screenshot of a computer Description automatically generated](./media/image6.1.png)
 
-7.  Add another combo box and update the following properties.
+7.	Select **+ (Insert)** > **Input** > **Combo box**.
 
-     **Name:** !!channel_Combobox!!
-    
-     **Items:**
-     !!If(!IsBlank(*team_Combobox*.Selected.id),MicrosoftTeams.GetChannelsForGroup(*team_Combobox*.Selected.id).value)!!
-    
-     **Width:** 320
-    
-     **Height:** 32
-    
-     **X:** !!Parent.Width/2 - channel_ComboBox.Width/2!!
-    
-     **Y:** 200
-    
-     **Text:** !!"Channel"!!
-    
-     **Tooltip**: !!"Channel"!!
-    
-     **Visible** : !!enterMessage!!
-    
-     ![A screenshot of a computer AI-generated content may be incorrect.](./media/image48.png)
+   ![A screenshot of a computer Description automatically generated](./media/image7.1.png)
 
-8.  Select **+(Insert)**  > **Input** > **Text box**.
+8.	Double-click on the **ComboBox1** under **Screen3** and rename it to !!team_Combobox!!.
 
-     ![A screenshot of a computer AI-generated content may be incorrect.](./media/image49.png)
+   ![A screenshot of a computer Description automatically generated](./media/image8.1.png)
 
-9.  Update the following properties of the Textbox
+9.	Update the following properties of the **team_Combobox** by selecting it one by one from **Property selector**.
+   **Items**:  !!MicrosoftTeams.GetAllTeams().value!!
+   **Text**: !!"Team"!!
+   **Tooltip**:  !!"Team"!!
+   **Visible**:  !!enterMessage!!
 
-     **Name:** !!message_TextBox!!
-    
-     **Value:** ""
-    
-     **Width**: 500
-    
-     **Height**: 180
-    
-     **X:** !!Parent.Width/2 - message_TextBox.Width/2!!
-    
-     **Y**: 300
-    
-    **Placeholder**: !!Type message here!!
-    
-     **Visible**: !!enterMessage!!
-    
-     ![A screenshot of a computer AI-generated content may be incorrect.](./media/image50.png)
+   ![A screenshot of a computer Description automatically generated](./media/image9.1.png)
 
-10. Select **+(Insert)** > **Input** > **Button**.
+10. Select **team_Combobox** on the canvas and drag it under the **startaconversation_Button** as shown in the image below.
 
-     ![A screenshot of a computer Description automatically generated](./media/image51.png)
+    ![A screenshot of a computer Description automatically generated](./media/image10.1.png)
 
-11. Update the following properties of the button.
+11. Add another combo box, rename it to !!channel_Combobox!!, update the following properties and then drag it below the **team_Combobox**.
 
-     **Name:** !!submit_Button!!
-    
-     **Text**: !!"Submit"!!
-    
-     **Width**: 96
-    
-     **Height**: 32
-    
-     **Font size**: 12
-    
-     **X**: !!Parent.Width/2 - submit_Button.Width/2!!
-    
-     **Y**: 500
-    
-     **Visible**: !!enterMessage!!
-    
-     ![A screenshot of a computer AI-generated content may be incorrect.](./media/image52.png)
+   **Items**: !!If(!IsBlank(team_Combobox.Selected.id),MicrosoftTeams.GetChannelsForGroup(team_Combobox.Selected.id).value)!!
+   **Text**: !!"Channel"!!
+   **Tooltip**: !!"Channel"!!
+   **Visible**: !!enterMessage!!
 
-12. From the Property selector, select the **OnSelect** property and
-    copy the following formula.
+   ![A screenshot of a computer Description automatically generated](./media/image11.1.png)
 
-     !!Patch(Conversations,Defaults(Conversations));!!
-    
-     !!Set(enterMessage,false);!!
-    
-     !!Reset(*team_Combobox*);!!
-    
-     !!Reset(*channel_Combobox*);!!
-    
-     !!Reset(*message_TextBox*);!!
-    
-     ![](./media/image53.png)
+   **Note**: Do not place it immediately below Start a conversation button. There is teams_Combobox button which is invisible right now. To view    that you can select it from Tree view. 
 
-13. Select **+** (Insert) > **Input** > **Button**. Adust the positions of all the newly created buttons and comboBoxes on the canvas by             seleting them from the tree view. So that they will appear correctly when you test the app.
+12. Select **+ (Insert)** > **Input** > **Text box**.
 
-     ![A screenshot of a computer AI-generated content may be incorrect.](./media/image54.png)
+   ![A screenshot of a computer Description automatically generated](./media/image12.1.png)
+   
+13. Rename the Text box to !!message_TextBox!!, update the following properties of the textbox and then drag it below the **channel_Combobox**.
+   **Value**:	""
+   **Placeholder**:	!!“Type message here”!!
+   **Visible**: !!enterMessage!!
 
-14. Update the following properties of the button.
+   ![A screenshot of a computer Description automatically generated](./media/image13.1.png)
 
-     **Name:** !!joinconversation_Button!!
-    
-     **Text:** !!"Join conversation"!!
-    
-     **Width:** 200
-    
-     **Height:** 32
-    
-     **Font size**: 12
-    
-     **X**: !!Parent.Width/2 - submit_Button.Width/2!!
-    
-     **Y**: 500
-    
-     **Visible:** !!enterMessage!!
-    
-     ![A screenshot of a computer AI-generated content may be incorrect.](./media/image55.png)
+14. Select **+ (Insert)** > **Input** > **Button**.
 
-15. From the Property selector, select the **OnSelect** property and
-    copy the following formula.
+   ![A screenshot of a computer Description automatically generated](./media/image14.1.png)
+   
+15. Rename the Button to !!submit_Button!!, update the following properties of the button and then drag it below the **message_TextBox**.
+   **Text**:	"Submit"
+   **Visible**: enterMessage
 
-     !!Launch(Concatenate("msteams://teams.microsoft.com/l/message/",Last(Sort(Conversations,
-     'Created On')).'Team Channel',"/", *'Companies
-     List'*.Selected.'Created
-     On',"?tenantId=",Param("tenandId"),"&groupId=",Last(Sort(Conversations,
-     'Created
-     On')).Team,"&parentMessageId=",LookUp(MicrosoftTeams.GetMessagesFromChannel(Last(Sort(Conversations,
-     'Created On')).Team,Last(Sort(Conversations, 'Created On')).'Team
-     Channel').value,id = Last(Sort(Conversations, 'Created
-     On')).Team).etag,"&teamName=",Last(Sort(Conversations, 'Created
-     On')).'Team Name',"&channelName=",Last(Sort(Conversations, 'Created
-     On')).'Channel Name'),{},LaunchTarget.New)!!
+    ![A screenshot of a computer Description automatically generated](./media/image15.1.png)
 
-    ![A screenshot of a computer AI-generated content may be incorrect.](./media/image56.png)
+16. From the **Property selector**, select the **OnSelect** property of the **submit_Button** and copy the following formula.
+
+   '''
+   Patch(Conversations,Defaults(Conversations),{'New column':"1",Team:team_Combobox.Selected.id,'Team Channel':channel_Combobox.Selected.id,Company:'Companies List'.Selected});
+   Set(enterMessage,false); 
+   Reset(team_Combobox);
+   Reset(channel_Combobox);
+   Reset(message_TextBox);
+   '''
+
+   ![A screenshot of a computer Description automatically generated](./media/image16.1.png)
 
 ### **Task 8: Update the gallery OnSelect Property**
 
