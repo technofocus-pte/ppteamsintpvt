@@ -190,83 +190,7 @@ components such as apps, flows, and tables.
 
     ![A screenshot of a computer Description automatically generated](./media/image36.png)
 
-[
-
-### **Task 4: Change the About screen text**
-
-   **Note:** The Milestone app about screen greeting text uses a formula
-   containing global variables to correctly display the desired terminology
-   for information about the app. Use caution when changing this formula.
-
-1.  Considering you are still on the Power Apps editor window and
-   **Milestone** app is opened.
-
-2.  Select the **Tree view** and then select **About Screen**.
-
-    ![A screenshot of a computer Description automatically generated](./media/image37.png)
-
-3.  Select **About text label** on the screen.
-
-    ![A screenshot of a computer Description automatically generated](./media/image38.png)
-
-4.  Expand the **formula** section with **About text label** selected.
-    Go through the formula. Formula is given below.
-
-    ![](./media/image39.png)
-   
-    The formula for the greeting text is in this format:
-   
-    With(
-   
-    {
-   
-    varDefault: "About",
-   
-    varOOBTextId: "lblAbout\_\_locText"
-   
-    },
-   
-    With(
-   
-    {
-   
-    varLocalizedText: LookUp(
-   
-    colLocalization,
-   
-    OOBTextID = varOOBTextId,
-   
-    LocalizedText
-   
-    )
-   
-    },
-   
-    Coalesce(
-   
-    varLocalizedText,
-   
-    varDefault
-   
-    )
-   
-    )
-   
-    )
-
-5.  In the formula bar. Replace the phrase **About** by **All about this
-    app**.
-
-    ![A screenshot of a computer Description automatically generated](./media/image40.png)
-
-6.  You can see that the **About text label** is now changed to **All
-    about this app**.
-
-    ![A screenshot of a computer Description automatically generated](./media/image41.png)
-
-]: #
-
-### **Task 5: Change the screen background color**
+### **Task 4: Change the screen background color**
 
    **Note:** The Milestone app leverages global theme variables to ensure consistent
    user experience. If you modify a screen fill, the modified screen will
@@ -295,7 +219,7 @@ components such as apps, flows, and tables.
 
    ![A screenshot of a computer Description automatically generated](./media/image45.png)
 
-### **Task 6: Publish app updates to Teams**
+### **Task 5: Publish app updates to Teams**
 
 1.  Select **Save** from the top-right.
 
@@ -309,11 +233,11 @@ components such as apps, flows, and tables.
 
     ![A screenshot of a computer Description automatically generated](./media/image48.png)
 
-4.  Select **+ sign** next to **TestChannel**.
+4.  Select **+ icon** next to **TestChannel**.
 
     ![A screenshot of a computer Description automatically generated](./media/image49.png)
 
-5.  Select **Milestone** app under **TestChannel** and then click on
+5.  You can see that **Milestone** app is added to **TestChannel** and then click on
     **Save and close**.
 
     ![A screenshot of a computer Description automatically generated](./media/image50.png)
