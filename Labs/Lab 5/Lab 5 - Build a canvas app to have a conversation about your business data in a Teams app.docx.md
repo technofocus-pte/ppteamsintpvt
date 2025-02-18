@@ -11,8 +11,8 @@
 
      ![A screenshot of a computer Description automatically generated](./media/image2.png)
 
-3.   Give the team a name such as "**Calls and Meetings Integration**",
-    enter the name of the channel as **Business Conversation**, and then
+3.   Give the team a name such as !!Calls and Meetings Integration!!,
+    enter the name of the channel as !!Business Conversation!! and then
     click on **Private**.
 
      ![A screenshot of a computer Description automatically generated](./media/image3.png)
@@ -50,7 +50,7 @@
 
      ![A screenshot of a computer Description automatically generated](./media/image10.png)
 
-4.  The process for creating the app will take some time.
+4.  The process for creating the app will take 2-3 minutes, if it takes more than that then refresh the window and repeat the above steps (Step       1 - 3).
 
      ![A screenshot of a computer Description automatically generated](./media/image11.png)
     
@@ -59,7 +59,7 @@
     The app gets created and Power Apps Studio opens to allow editing the
     app.
 
-5.  Enter a name for the app, such as "**Conversation app**", and
+5.  Enter a name for the app, such as !!Conversation app!! and
     select **Save**.
 
      ![A screenshot of a computer Description automatically generated](./media/image13.png)
@@ -86,7 +86,7 @@
 
      ![A screenshot of a computer Description automatically generated](./media/image18.png)
 
-3.  Search for and select **Teams connector**.
+3.  Search for and select **Microsoft Teams** connector.
 
      ![A screenshot of a computer AI-generated content may be incorrect.](./media/image19.png)
 
@@ -113,12 +113,12 @@
      ![A screenshot of a computer Description automatically generated](./media/image23.png)
 
 3.  Select **pencil icon** next to **New table** to give a name. Enter
-    the name as **Company** and then select **Save**.
+    the name as !!Company!! and then select **Save**.
 
      ![A screenshot of a computer AI-generated content may be incorrect.](./media/image24.png)
 
-4.  After adding Display name, add following company names in the table
-    column one by one by hitting enter button and then click on **Save
+4.  After adding the Display name, add following company names in the table
+    column one by one by hitting the Enter key and then click on **Save
     and close**.
 
      !!Microsoft!!, !!Infosys!!, !!Accenture!!, !!Wipro!!, !!Dell!! and !!Google!!.
@@ -127,7 +127,7 @@
 
 ### **Task 5: Add a new screen to select the customer**
 
-    Next, we'll add a screen to the app so that users can select thecustomer that they want to have the conversation about.
+    Next, we'll add a screen to the app so that users can select the customer that they want to have the conversation about.
 
 1.  In the tree view, select **+ New screen.**  Select **List**.
 
@@ -137,13 +137,13 @@
     
      ![A screenshot of a computer Description automatically generated](./media/image27.png)
 
-2.  Update the title of the gallery to "**Companies List**".
+2.  Double-click on **TemplateGalleryList1** under **Screen2** and replace it by the new title !!Companies List!!.
 
      ![A screenshot of a computer Description automatically generated](./media/image28.png)
     
      ![A screenshot of a computer Description automatically generated](./media/image29.png)
 
-3.  **Companies List** selected from the **Tree view**, click on
+3.  With the **Companies List** selected from the **Tree view**, click on
     drop-down for **Data source** under the **Properties** pane.
 
      ![A screenshot of a computer Description automatically generated](./media/image30.png)
@@ -183,17 +183,11 @@
      ![A screenshot of a computer Description automatically generated](./media/image23.png)
 
 3.  Click on the **Pencil** icon, beside **New table**. Enter table name
-    as **Conversation.**  Click on **Save** and then select **Save and
-    close.**
+    as !!Conversation!!.  Click on **Save**.
 
      ![A screenshot of a computer Description automatically generated](./media/image36.png)
 
-4.  Click on the ellipse beside the newly created conversations table
-    and select edit data.
-
-     ![A screenshot of a computer Description automatically generated](./media/image37.png)
-
-5.  Click on **+ New column** and add a new column enter the details and
+4.  Click on **+ New column** and add a new column enter the details and
     then select **Save**.
 
      **Display name:** !!Team!!
@@ -214,8 +208,8 @@
     
      ![A screenshot of a computer Description automatically generated](./media/image39.png)
 
-6.  You can now see new columns are now added to the table and then
-    select **Close**.
+5.  You can now see new columns are now added to the table and then
+    select **Save and close**.
 
      ![A screenshot of a computer Description automatically generated](./media/image40.png)
 
