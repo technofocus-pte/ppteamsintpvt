@@ -2,7 +2,7 @@
 
 ## **Exercise 1: Assign Power Apps trial license**
 
-1.  Open a web browser on your VM and go
+1.  Open the Google Chrome browser on your VM and go
     to !!https://powerapps.microsoft.com/en-us/free/!!.
 
      ![A person with his arms crossed Description automatically generated](./media/image1.png)
@@ -11,7 +11,7 @@
 
      ![A person with his arms crossed Description automatically generated](./media/image2.png)
 
-3.  Enter your Office 365 admin credential, check the checkbox to accept
+3.  Enter your Office 365 admin credential from **Home** tab, check the checkbox to accept
     the agreement and click on **Start your free trial**.
 
      ![A screenshot of a computer Description automatically generated](./media/image3.png)
