@@ -257,78 +257,78 @@
 
 9.	Update the following properties of the **team_Combobox** by selecting it one by one from **Property selector**.
     
-   **Items**:  !!MicrosoftTeams.GetAllTeams().value!!
+      **Items**:  !!MicrosoftTeams.GetAllTeams().value!!
    
-   **Text**: !!"Team"!!
+      **Text**: !!"Team"!!
    
-   **Tooltip**:  !!"Team"!!
+      **Tooltip**:  !!"Team"!!
    
-   **Visible**:  !!enterMessage!!
+      **Visible**:  !!enterMessage!!
 
-   ![A screenshot of a computer Description automatically generated](./media/image9.1.png)
+      ![A screenshot of a computer Description automatically generated](./media/image9.1.png)
 
 10. Select **team_Combobox** on the canvas and drag it under the **startaconversation_Button** as shown in the image below.
 
-    ![A screenshot of a computer Description automatically generated](./media/image10.1.png)
+       ![A screenshot of a computer Description automatically generated](./media/image10.1.png)
 
 11. Add another combo box, rename it to !!channel_Combobox!!, update the following properties and then drag it below the **team_Combobox**.
 
-   **Items**: !!If(!IsBlank(team_Combobox.Selected.id),MicrosoftTeams.GetChannelsForGroup(team_Combobox.Selected.id).value)!!
-   
-   **Text**: !!"Channel"!!
-   
-   **Tooltip**: !!"Channel"!!
-   
-   **Visible**: !!enterMessage!!
+      **Items**: !!If(!IsBlank(team_Combobox.Selected.id),MicrosoftTeams.GetChannelsForGroup(team_Combobox.Selected.id).value)!!
+      
+      **Text**: !!"Channel"!!
+      
+      **Tooltip**: !!"Channel"!!
+      
+      **Visible**: !!enterMessage!!
 
-   ![A screenshot of a computer Description automatically generated](./media/image11.1.png)
+      ![A screenshot of a computer Description automatically generated](./media/image11.1.png)
 
-   **Note**: Do not place it immediately below Start a conversation button. There is teams_Combobox button which is invisible right now. To view    that you can select it from Tree view. 
+      **Note**: Do not place it immediately below Start a conversation button. There is teams_Combobox button which is invisible right now. To view that you can select it from Tree view. 
 
 12. Select **+ (Insert)** > **Input** > **Text box**.
 
-   ![A screenshot of a computer Description automatically generated](./media/image12.1.png)
+      ![A screenshot of a computer Description automatically generated](./media/image12.1.png)
    
 13. Rename the Text box to !!message_TextBox!!, update the following properties of the textbox and then drag it below the **channel_Combobox**.
 
-    **Value**:	""
-    
-   **Placeholder**:	!!“Type message here”!!
+       **Value**:	""
+       
+      **Placeholder**:	!!“Type message here”!!
+      
+      **Visible**: !!enterMessage!!
    
-   **Visible**: !!enterMessage!!
-
-   ![A screenshot of a computer Description automatically generated](./media/image13.1.png)
+      ![A screenshot of a computer Description automatically generated](./media/image13.1.png)
 
 14. Select **+ (Insert)** > **Input** > **Button**.
 
-   ![A screenshot of a computer Description automatically generated](./media/image14.1.png)
+      ![A screenshot of a computer Description automatically generated](./media/image14.1.png)
    
 15. Rename the Button to !!submit_Button!!, update the following properties of the button and then drag it below the **message_TextBox**.
 
-    **Text**:	!!"Submit"!!
-    
-   **Visible**: !!enterMessage!!
+       **Text**:	!!"Submit"!!
+       
+      **Visible**: !!enterMessage!!
 
-    ![A screenshot of a computer Description automatically generated](./media/image15.1.png)
+       ![A screenshot of a computer Description automatically generated](./media/image15.1.png)
 
 17. From the **Property selector**, select the **OnSelect** property of the **submit_Button** and copy the following formula.
 
-   '''
+      '''
+      
+      Patch(Conversations,Defaults(Conversations),{'New column':"1",Team:team_Combobox.Selected.id,'Team Channel':channel_Combobox.Selected.id,Company:'Companies List'.Selected});
    
-   Patch(Conversations,Defaults(Conversations),{'New column':"1",Team:team_Combobox.Selected.id,'Team Channel':channel_Combobox.Selected.id,Company:'Companies List'.Selected});
+      
+      Set(enterMessage,false); 
+      
+      Reset(team_Combobox);
+      
+      Reset(channel_Combobox);
+      
+      Reset(message_TextBox);
+      
+      '''
 
-   
-   Set(enterMessage,false); 
-   
-   Reset(team_Combobox);
-   
-   Reset(channel_Combobox);
-   
-   Reset(message_TextBox);
-   
-   '''
-
-   ![A screenshot of a computer Description automatically generated](./media/image16.1.png)
+      ![A screenshot of a computer Description automatically generated](./media/image16.1.png)
 
 ### **Task 8: Update the gallery OnSelect Property**
 
@@ -383,20 +383,13 @@
 
     - Team (dropdown with a list of teams)
 
-    &nbsp;
-
     - Channel (dropdown list of channels within the selected team)
 
-    &nbsp;
-
-    - Message box (text box to type in the message to be sent to the
-      team)
-
-    &nbsp;
+    - Message box (text box to type in the message to be sent to the team)
 
     - Submit button (to submit the message)
   
-   ![A screenshot of a computer AI-generated content may be incorrect.](./media/image5.1.1.png)
+    ![A screenshot of a computer AI-generated content may be incorrect.](./media/image5.1.1.png)
 
 6.  Select a team.
 
