@@ -24,7 +24,7 @@
 
      ![A screenshot of a computer Description automatically generated](./media/image4.png)
 
-6.  Select the **Test Team** to own and manage your agent and then
+6.  Select the **Test Team** to create and manage your agent and then
     select **Continue**.
 
      ![A screenshot of a chatbot Description automatically generated](./media/image5.png)
@@ -48,8 +48,8 @@
      ![A screenshot of a computer Description automatically generated](./media/image9.png)
 
 3.  To name this topic or add details about it, select **Details** from
-    the ribbon at the top of the screen. Name your topic !!**Event
-    Contacts**!!.
+    the ribbon at the top of the screen. Name your topic !!Event
+    Contacts!!.
 
      ![A screenshot of a computer Description automatically generated](./media/image10.png)
 
@@ -74,16 +74,13 @@
 5.  In the **Message** node just below the **Trigger Phrases** node,
     enter the following information.
 
-    '''
-    
-     The event team contacts for North America are:
+        
+     !!The event team contacts for North America are:!!
   
-     **USA** Lynne Robbins LynneR@contoso.com
+     !!**USA** Lynne Robbins LynneR@contoso.com!!
     
-     **Canada** Lidia Holloway Lidia@contoso.com
-
-     '''
-    
+     !!**Canada** Lidia Holloway Lidia@contoso.com!!
+   
      ![A screenshot of a computer Description automatically generated](./media/image13.png)
 
 7.  Select the plus **+** symbol under the **Message** node to add
@@ -117,13 +114,11 @@
      ![A screenshot of a chat Description automatically generated](./media/image19.png)
 
 12. Since the agent is working for you, it can adapt other inputs as
-    well. Try entering these phrases to see how it reacts (you can reset
+    well. Try entering below phrase to see how it reacts (you can reset
     the test agent in between tries):
 
      !!contacts for the event!!
-    
-     contacts
-    
+      
      ![A screenshot of a chat Description automatically generated](./media/image20.png)
 
 ### **Task 3: Publish the agent**
@@ -216,7 +211,7 @@
      ![A screenshot of a computer Description automatically generated](./media/image36.png)
 
 10. Come back to the **Microsoft Copilot Studio for Teams** app page
-    where you left earlier on the **Publish** page. Check that the
+    where you left earlier on the **Publish** page. Refresh the page and check that the
     status is now updated as **Published by your organization**.
 
      ![A screenshot of a computer Description automatically generated](./media/image37.png)
