@@ -48,7 +48,7 @@
 10.  This screen confirms the installation of **Power BI Desktop** on the
     lab VM.
 
-    ![A screenshot of a computer AI-generated content may be incorrect.](./media/image10.png)
+     [A screenshot of a computer AI-generated content may be incorrect.](./media/image10.png)
 
 11. Select **Sign in**.
 
