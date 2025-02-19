@@ -20,13 +20,13 @@
 
     ![A screenshot of a computer AI-generated content may be incorrect.](./media/image2.png)
 
-3.  Select and drag the following elements from the **Fields** pane:
+3.  Select and drag the following elements from the **Data** pane. Ensure that your Data pane is opened which is next to **Visualizations** pane and expand **equipmentlist** table.
 
-    **Name** field to X Axis
+    **New column** field to **X Axis**
     
-    **Equipmentlist** field to Y Axis
+    **Equipmentlist** field to **Visualizations** pane
     
-    ![A screenshot of a computer AI-generated content may be incorrect.](./media/image3.png)
+    ![A screenshot of a computer AI-generated content may be incorrect.](./media/image1.3.1.png)
 
 4.  Notice that the chart shows the data by location. As we have minimal
     amount of data in the table created, the view is as shown below.
@@ -69,11 +69,7 @@
 
     ![A screenshot of a computer AI-generated content may be incorrect.](./media/image9.png)
 
-2.  If you haven't signed into **Power BI Desktop** yet, you will be
-    prompted for credentials.
-
-    After you have successfully signed in, select **My workspace** to
-    publish the report.
+2.  Select **My workspace** to publish the report.
     
      ![Graphical user interface, text, application, email Description automatically generated](./media/image10.png)
 
