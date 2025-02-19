@@ -18,62 +18,66 @@
     downloading, doubleclick on the installer file and then click
     **Next** to install.
 
+    **Note**: Select **Yes** on **User Account Control** which asks "Do you want to allow this app to make changes to your device?"
+
     ![A blue rectangle with black text AI-generated content may be incorrect.](./media/image3.png)
     
     ![A screenshot of a computer AI-generated content may be incorrect.](./media/image4.png)
 
-4.  Click **Next**.
+5.  Click **Next**.
 
     ![A screenshot of a computer AI-generated content may be incorrect.](./media/image5.png)
 
-5.  Select **Accept the terms in the License Agreement** and click on
+6.  Select **Accept the terms in the License Agreement** and click on
     **Next.**
 
     ![A screenshot of a computer AI-generated content may be incorrect.](./media/image6.png)
 
-6.  Click on **Next.**
+7.  Click on **Next.**
 
     ![A screenshot of a computer AI-generated content may be incorrect.](./media/image7.png)
 
-7.  Click on **Install**.
+8.  Click on **Install**.
 
     ![A screenshot of a computer AI-generated content may be incorrect.](./media/image8.png)
 
-8.  Click **Finish** when installation is done.
+9.  Click **Finish** when installation is done.
 
     ![](./media/image9.png)
 
-9.  This screen confirms the installation of **Power BI Desktop** on the
+10.  This screen confirms the installation of **Power BI Desktop** on the
     lab VM.
 
     ![A screenshot of a computer AI-generated content may be incorrect.](./media/image10.png)
 
-10. Select **Sign in**.
+11. Select **Sign in**.
 
     ![A screenshot of a computer AI-generated content may be incorrect.](./media/image11.png)
 
-11. Enter given **admin tenant credentials** to sign in and then select
-    **Next**.
-
-    ![A screenshot of a computer AI-generated content may be incorrect.](./media/image12.png)
-
-12. Enter admin tenant password and then select **Sign in**.
-
-    ![A screenshot of a computer AI-generated content may be incorrect.](./media/image13.png)
-
-13. Select **OK** on **Stay signed in all your apps** pop-up.
-
-    ![A screenshot of a computer AI-generated content may be incorrect.](./media/image14.png)
-
-14. If you see below screen, close the pop-up screen which says, Dark
-    mode is here.
-
+12. If you see below screen, close the pop-up screen which says, **Dark mode** is here.
+    
     ![A screenshot of a computer AI-generated content may be incorrect.](./media/image15.png)
 
-15. Enter given admin tenant credentials and select **Continue**.
+13. Enter the given **admin tenant credentials** and select **Continue**.
 
-    ![A screenshot of a computer AI-generated content may be incorrect.](./media/image16.png)
+    ![A screenshot of a computer AI-generated content may be incorrect.](./media/image12.1.png)
 
+14.	Enter the given **admin tenant credentials** to sign in and then select **Next**.
+
+    ![A screenshot of a computer AI-generated content may be incorrect.](./media/image13.1.png)
+
+15.	Enter **admin tenant password** and then select **Sign in**.
+
+    ![A screenshot of a computer AI-generated content may be incorrect.](./media/image14.1.png)
+
+16.	Select **OK** on **Stay signed in all your apps** pop-up.
+
+    ![A screenshot of a computer AI-generated content may be incorrect.](./media/image15.1.png)
+
+17.	On the **You’re all set** pop-up, select **Done**.
+
+    ![A screenshot of a computer AI-generated content may be incorrect.](./media/image15.1.png)
+   	
 ### **Task 2: Get the environment URL for the Dataverse for Teams table**
 
     The environment URL for the Dataverse for Teams table is required when
@@ -104,17 +108,17 @@
 
 ### **Task 3: Connect to Dataverse for Teams table date**
 
-1.  Launch **Power BI Desktop** using the shortcut created on VM's Desktop.
+1.  Go back to **Power BI Desktop**.
 
     ![A screenshot of a computer AI-generated content may be incorrect.](./media/image20.png)
 
-2.  Select **Microsoft Power Platform** and then Dataverse. Click on
+2.  Select **Power Platform** and then Dataverse. Click on
     **Connect** to continue.
 
     ![A screenshot of a computer AI-generated content may be incorrect.](./media/image21.png)
 
 3.  You may be prompted to Sign in, when you connect for the first time.
-    Click **Sign in** and Enter your Office 365 credentials.
+    Click **Sign in** and enter your Office 365 credentials.
 
     ![A screenshot of a computer AI-generated content may be incorrect.](./media/image22.png)
 
@@ -138,7 +142,9 @@
 
 7.  Select **Transform Data** to open the table in Power Query Editor.
 
-    ![A screenshot of a computer AI-generated content may be incorrect.](./media/image26.png)
+    **Note**:To enable **Transform Data** option, ensure that you have marked the box of **EquipmentList** table. 
+
+    ![A screenshot of a computer AI-generated content may be incorrect.](./media/image3.7.1.png)
 
 8.  Next select **Import** and click **OK.**
 
@@ -161,8 +167,8 @@
     columns, rename columns, and verify that the correct data types are
     used:
 
-1.  To reduce the number of columns in the **Power Query
-    Editor** Home ribbon, select **Choose Columns.** If you don’t see
+1.  To reduce the number of columns select **Choose Columns** in the **Power Query
+    Editor Home ribbon**. If you don’t see
     **Choose Columns**, select **Manage Columns** and then select
     **Choose Columns.**
 
@@ -175,7 +181,7 @@
     
      **createdon**
     
-     **Cr0c9_name or Cr0c9_newcolumn**
+     **Cr0c9_name** or **Cr0c9_newcolumn**
     
      **Cr0c9_location**
     
@@ -194,7 +200,7 @@
 
      **Cr0c9_equipmentlistid** as !!equipmentid!!
     
-     **Cr0c9_name** as !!equipmentname!!
+     **Cr0c9_name** or **Cr0c9_newcolumn** as !!equipmentname!!
     
      **Cr0c9_location** as !!location!!
     
