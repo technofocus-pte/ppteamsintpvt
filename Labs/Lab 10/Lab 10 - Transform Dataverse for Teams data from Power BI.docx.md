@@ -138,15 +138,17 @@
     example, select the **EquipmentList** table that you created
     previously.
 
+    **Note**: If the **EquipmentList** table is not available in the list then go to **Teams**, select **View more apps (...)**, select **Power Apps**, select **Equipment app** and then select **Publish to Teams**. 
+
     ![A screenshot of a computer AI-generated content may be incorrect.](./media/image25.png)
 
-7.  Select **Transform Data** to open the table in Power Query Editor.
+8.  Select **Transform Data** to open the table in Power Query Editor.
 
     **Note**:To enable **Transform Data** option, ensure that you have marked the box of **EquipmentList** table. 
 
     ![A screenshot of a computer AI-generated content may be incorrect.](./media/image3.7.1.png)
 
-8.  Next select **Import** and click **OK.**
+9.  Next select **Import** and click **OK.**
 
     ![A screenshot of a computer AI-generated content may be incorrect.](./media/image27.png)
 
